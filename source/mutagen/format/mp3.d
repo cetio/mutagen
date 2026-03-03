@@ -1,7 +1,7 @@
 module mutagen.format.mp3;
 
-import mutagen.format.mp3.frame;
-import mutagen.catalog.image;
+import mutagen.format.mp3frame;
+import mutagen.image;
 import std.stdio;
 import std.conv;
 import std.string;

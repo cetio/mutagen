@@ -1,10 +1,10 @@
-module mutagen.catalog.album;
+module mutagen.album;
 
 import std.algorithm : sort;
 
-import mutagen.catalog.artist;
-import mutagen.catalog.image;
-import mutagen.catalog.track;
+import mutagen.artist;
+import mutagen.image;
+import mutagen.track;
 
 class Album
 {
@@ -32,6 +32,6 @@ public:
     void sortTracks()
     {
         tracks.sort!((a, b) => a.number < b.number ||
-            (a.number == b.number && a.audio.file.name < b.audio.file.name));
+            (a.number == b.number && a.file.name < b.file.name));
     }
 }

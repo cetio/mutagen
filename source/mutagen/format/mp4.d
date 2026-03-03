@@ -1,7 +1,7 @@
 module mutagen.format.mp4;
 
-import mutagen.format.mp4.atom;
-import mutagen.catalog.image;
+import mutagen.format.mp4atom;
+import mutagen.image;
 import std.stdio;
 import std.string;
 import std.bitmanip;

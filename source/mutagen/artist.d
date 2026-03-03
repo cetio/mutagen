@@ -1,7 +1,7 @@
-module mutagen.catalog.artist;
+module mutagen.artist;
 
-import mutagen.catalog.album;
-import mutagen.catalog.image;
+import mutagen.album;
+import mutagen.image;
 
 class Artist
 {

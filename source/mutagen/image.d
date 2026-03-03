@@ -1,4 +1,4 @@
-module mutagen.catalog.image;
+module mutagen.image;
 
 import std.string : toLower;
 

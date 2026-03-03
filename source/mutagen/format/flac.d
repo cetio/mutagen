@@ -1,7 +1,7 @@
 module mutagen.format.flac;
 
-import mutagen.format.flac.block;
-import mutagen.catalog.image;
+import mutagen.format.flacblock;
+import mutagen.image;
 import std.stdio;
 import std.string;
 import std.variant;

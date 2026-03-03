@@ -1,5 +1,7 @@
 module mutagen;
 
-public import mutagen.audio;
-public import mutagen.catalog;
+public import mutagen.track;
+public import mutagen.album;
+public import mutagen.artist;
+public import mutagen.image;
 public import mutagen.format;
